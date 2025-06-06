@@ -4,18 +4,18 @@ import { motion } from 'motion-v'
 
 <template>
     <div class="bg-emerald-950 text-emerald-50 h-screen w-screen">
-        <div class="md:max-w-3xl md:mx-auto">
+        <div class="lg:max-w-3xl lg:mx-auto">
             <motion.div 
-                :initial="{ opacity: 0, y: 120 }" 
+                :initial="{ opacity: 0, y: 256 }" 
                 :animate="{ opacity: 1, y: 0 }" 
                 :transition="{ duration: 0.75, easing: 'ease' }" 
                 class="h-screen flex flex-col items-center justify-center gap-32">
-                <h1 class="text-5xl uppercase tracking-[.5rem] font-mono ">
+                <h1 class="text-5xl uppercase tracking-[.5rem] font-mono text-emerald-50 ">
                     <span class="text-emerald-500">D</span>iogo 
                     <span class="text-emerald-500">C</span>origo
                 </h1>
 
-                <p class="text-center px-16 font-display font-light text-sky-200 max-w-xl">
+                <p class="text-center px-16 font-display font-light max-w-xl text-emerald-50">
                     <b class="text-emerald-500">Fullstack developer</b> with 5 years of successful production deployments and satisfied customers.
                 </p>
             </motion.div>
