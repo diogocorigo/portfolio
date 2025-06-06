@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diogo Corigo | Portfolio</title>
+
+    <script src="https://kit.fontawesome.com/ac344e1e66.js" crossorigin="anonymous"></script>
+  <script type="module" crossorigin src="/assets/index-DSef3bre.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BiK4EQBH.css">
+</head>
+
+<body class="min-h-screen max-w-screen overflow-x-hidden">
+    <div id="app"></div>
+
+    <script>
+        function ThemeSwitcher(variant = "dark") {
+            localStorage.setItem("theme", variant);
+
+            document.documentElement.classList.remove("dark", "light");
+            document.documentElement.classList.add(variant);
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            localStorage.getItem("theme")
+                ? ThemeSwitcher(localStorage.getItem("theme"))
+                : ThemeSwitcher("dark");
+        });
+    </script>
+</body>
+
+</html>
