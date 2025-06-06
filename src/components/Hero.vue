@@ -10,12 +10,12 @@ import { motion } from 'motion-v'
                 :animate="{ opacity: 1, y: 0 }" 
                 :transition="{ duration: 0.75, easing: 'ease' }" 
                 class="h-screen flex flex-col items-center justify-center gap-32">
-                <h1 class="text-2xl lg:text-5xl uppercase tracking-[.5rem] font-mono text-emerald-50 ">
+                <h1 class="text-3xl lg:text-5xl uppercase tracking-[.5rem] font-mono text-emerald-50 ">
                     <span class="text-emerald-500">D</span>iogo 
                     <span class="text-emerald-500">C</span>origo
                 </h1>
 
-                <p class="text-xs lg:text-base text-center px-16 font-display font-light max-w-xl text-emerald-50">
+                <p class="text-sm lg:text-base text-center px-16 font-display font-light max-w-xl text-emerald-50">
                     <b class="text-emerald-500">Fullstack developer</b> with 5 years of successful production deployments and satisfied customers.
                 </p>
             </motion.div>
