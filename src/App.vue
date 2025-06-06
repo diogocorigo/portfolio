@@ -2,7 +2,7 @@
 import Hero from './components/Hero.vue'
 import AboutMe from './components/AboutMe.vue'
 
-import { motion, useScroll  } from 'motion-v'
+import { motion, useScroll } from 'motion-v'
 const { scrollYProgress } = useScroll()
 
 const scrollIndicator = {
