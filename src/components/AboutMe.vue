@@ -5,7 +5,7 @@ import MySocials from './partials/MySocials.vue';
 
 <template>
     <div class="bg-emerald-50 text-emerald-900 h-screen w-screen">
-        <div class="w-full lg:max-w-10/12 lg:mx-auto">
+        <div class="w-full lg:max-w-7xl lg:mx-auto">
             <div class="min-h-screen flex flex-col xl:flex-row ">
                 <div class="flex flex-col md:flex-row xl:flex-col xl:w-1/3 p-8 pt-16 gap-8">
                     <MySkills />
