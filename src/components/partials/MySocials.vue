@@ -50,7 +50,7 @@ const urls = {
                 </svg>Email
             </a>
 
-            <a :href="urls.resume" target="_blank"
+            <a :href="urls.resume" download
                 class="w-full p-4 py-3 rounded-br-2xl bg-emerald-950 text-emerald-50 flex items-center gap-2 font-display cursor-pointer">
                 <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 384 512">
                     <path fill="#ecfdf5 "
