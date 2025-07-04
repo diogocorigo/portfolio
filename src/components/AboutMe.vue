@@ -29,12 +29,10 @@ import MySocials from './partials/MySocials.vue';
 
                             <ul
                                 class="p-4 ps-8 py-3 rounded-b-2xl bg-emerald-50 text-emerald-950 font-display border-4 border-emerald-950 border-t-0 list-disc space-y-4">
-                                <li>Built custom Laravel web apps to streamline client workflows and enhance customer
-                                    support.</li>
-                                <li>Developed Windows services and desktop apps in C#, integrating with APIs and ERPs
-                                    like SAGE, PHC, and ARTSOFT.</li>
-                                <li>Created web scrapers in Go to extract data and power analytics dashboards in web
-                                    apps.</li>
+                                <li>Developed fullstack web applications using Laravel and Vue.js</li>
+                                <li>Designed and managed relational databases (MySQL, MSSQL, SQLite)</li>
+                                <li>Built Windows services with .NET Framework and .NET Core</li>
+                                <li>Followed clean code principles and architectural best practices</li>
                             </ul>
                         </div>
 
