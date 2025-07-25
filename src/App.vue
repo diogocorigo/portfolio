@@ -12,7 +12,7 @@ const scrollIndicator = {
 </script>
 
 <template>
-    <motion.div id="scroll-indicator" class="fixed top-0 left-0 right-0 h-1 bg-emerald-500" :style="scrollIndicator" />
+    <motion.div id="scroll-indicator" class="fixed top-0 left-0 right-0 h-1 bg-slate-500" :style="scrollIndicator" />
 
     <Hero />
     <AboutMe />
